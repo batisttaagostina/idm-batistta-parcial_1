@@ -1,0 +1,1018 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #568156;
+    color:antiquewhite;
+    padding-top: 60px;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header-bg {
+    background-color: rgb(58, 103, 187);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header-bg > header {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0 0 1rem;
+    text-align: center;
+}
+
+nav ul li {
+    padding: 0.5rem 1rem;
+    text-align: center;
+    color:aliceblue;
+    border-color: aliceblue;
+    border-width: 1px;
+    border-style:solid;
+    display: inline-block;
+    width: 100%;
+}
+
+nav .uno {
+    background-color:#2752a3;
+}
+
+nav .dos {
+    background-color: #4880e6;
+}
+
+nav .tres {
+    background-color: #6495ed;
+}
+
+nav .cuatro {
+    background-color: #8ab2fc;
+}
+
+nav .cinco {
+    background-color: #a1c1fc;
+}
+
+nav a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: rgb(58, 103, 187);
+}
+
+.intro-banner-tablet>img {
+    display: none;
+}
+
+.intro-banner-desktop>img {
+    display: none;
+}
+
+.historia-texto img:nth-child(3) {
+    display: none;
+}
+
+.historia-texto img:nth-child(4) {
+    display: none;
+}
+
+.historia-texto img:nth-child(9) {
+    display: none;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+h2, h3, h4 {
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.371);
+}
+
+h1 {
+    font-family: 'Bree Serif', serif;
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: left;
+    padding-bottom: 1rem;
+    margin: 60px 0;
+    border-bottom: 2px dashed antiquewhite;
+}
+
+h3 {
+    margin: 60px auto;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: antiquewhite;
+    border-top: 2px dashed antiquewhite;
+    border-bottom: 2px dashed antiquewhite;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+strong {
+    color: #d4ffd4;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+em {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.intro-texto, .historia-texto, .items-personajes, .episodios-texto, .clips-texto, .clips-videos, .formulario-contenido {
+    padding: 0 1rem;
+}
+
+section {
+    margin: 6rem 0;
+}
+
+.intro-texto a {
+    color: orange;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.intro-texto span {
+    font-style: italic;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+#historia > div {
+    font-size: 0;
+}
+
+.historia-texto p span {
+    color: orange;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.historia-texto img {
+    margin: 2rem auto;
+}
+
+.historia-texto img:nth-child(2) {
+    margin: 2rem auto;
+}
+
+.historia-texto img:nth-child(3) {
+    display: none;
+}
+
+.historia-texto a {
+    color: orange;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+blockquote {
+    font-style: italic;
+    font-weight: 400;
+}
+
+blockquote p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 300;
+    color: orange;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.254);
+}
+
+.historia-texto > blockquote p span {
+    font-style: normal;
+    color: antiquewhite;
+}
+
+#personajes > div {
+    font-size: 0;
+}
+
+.perfil-img-p300 > img {
+    display: none;
+}
+
+.perfil-personaje {
+    display: inline-block;
+    font-size: 1rem;
+    border: 5px double antiquewhite;
+    margin: 2rem 0;
+    background-color: #6f9df13a;
+}
+
+.perfil-personaje h4 {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color:rgb(34, 91, 34);
+}
+
+.perfil-texto strong {
+    color:antiquewhite;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.perfil-texto span {
+    font-style: normal;
+    color: #d4ffd4;
+    font-weight: 500;
+}
+
+.perfil-personaje p {
+    padding: 1rem;
+    font-weight: 300;
+}
+
+.perfil-personaje .perfil-actor {
+    padding: 1rem 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    color: rgb(34, 91, 34);
+    background-color:rgb(255, 255, 255);
+}
+
+.perfil-img>img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 5px solid #d4ffd4;
+}
+
+#episodios > div {
+    font-size: 0;
+}
+
+.resenia-indice {
+    padding: 1rem 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    color: rgb(34, 91, 34);
+    background-color:rgb(255, 255, 255);
+}
+
+.resenia-episodio h4 {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color:rgb(34, 91, 34);
+    margin-top: 2rem;
+}
+
+.resenia-episodio img {
+    margin: 1rem 0 1rem;
+}
+
+.vinculo-img a {
+    color: orange;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+.vinculo-img {
+    width: 100%;
+    background-color: antiquewhite;
+    border-radius: 50px;
+    border-bottom: 5px solid orange;
+    color: orange;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5rem 1rem;;
+    margin: 1rem 0 1rem;
+    cursor: pointer;
+}
+
+.vinculo-img:hover {
+    background-color: orange;
+    border-bottom: 5px solid antiquewhite;
+}
+
+.vinculo-img>a:hover {
+    color: antiquewhite;
+}
+
+#clips > div {
+    font-size: 0;
+}
+
+.clips-texto {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.galeria-clip {
+    margin-bottom: 1rem;
+    font-size: 0;
+    background-color: #6f9df14f;
+}
+
+.galeria-clip iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+    display: block;
+}
+
+.galeria-clip div {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.galeria-clip-1 .web-clip {
+    display: none;
+}
+
+.galeria-clip .texto-clip {
+    color: white;
+}
+
+.galeria-clip .texto-clip::first-line {
+    color: #d4ffd4;
+    font-weight: 400;
+}
+
+.galeria-clip p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+#formulario > div {
+    font-size: 0;
+}
+
+.form-titulo h4 {
+    text-shadow: none;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+
+.form-titulo h4 span {
+    color: orange;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.form-titulo p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    margin: 1rem 2rem 2rem;
+}
+
+.form-titulo p span {
+    color: orange;
+    font-weight: 500;
+    border-bottom: 2px solid orange;
+}
+
+.formulario-contenido span {
+    font-size: 1rem;
+    color: whitesmoke;
+}
+
+.formulario-campo-o span::after {
+    content: ' * ';
+    color: whitesmoke;
+}
+
+.formulario-contenido input, textarea {
+    background-color: wheat;
+    border: none;
+    width: 100%;
+    height: 2rem;
+    margin: 0.5rem 0 0.5rem;
+}
+
+input::placeholder {
+    color: #568156;
+    font-weight: bold;
+    text-align: center;
+}
+
+.formulario-campo textarea {
+    height: 30%;
+}
+
+.formulario-campo input, textarea {
+    padding: 1rem;
+}
+
+
+.boton-suscribir {
+    width: 100%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border-bottom: 5px solid orange;
+    color: orange;
+    text-decoration: none;
+    text-align: center;
+    margin: 1rem 0 1rem;
+}
+
+.boton-suscribir input {
+    color: orange;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 800;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgba(109, 109, 109, 0.08);
+}
+
+.boton-suscribir:hover {
+    background-color: orange;
+    border-bottom: 5px solid antiquewhite;
+}
+
+.boton-suscribir input:hover {
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.footer>div {
+    font-size: 0;
+}
+
+.footer h4 {
+    text-shadow: none;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px dashed antiquewhite;
+    border-top: 2px dashed antiquewhite;
+    padding: 1rem 0 1rem;
+    margin: 2rem 0 1rem;
+}
+
+.footer>img {
+    width: 80%;
+    padding: 0 1rem 0;
+    margin: auto;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.footer ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.footer ul li>a {
+    display: block;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+.footer ul {
+    margin: 0 auto;
+    padding: 0 1rem 0;
+    display: block;
+    text-align: center;
+}
+
+.footer ul li > span {
+    color: orange;
+    background-color:antiquewhite;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    filter: drop-shadow(0 2px 4px rgba(126, 126, 126, 0.253))
+
+}
+
+.footer ul>img {
+    width: 100%;
+}
+
+.footer-bg {
+    background-color: #6495ed;
+    text-align: center;
+    height: 50%;
+    margin: auto;
+}
+
+.footer-bg>p {
+    display: inline-block;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-bg > p:nth-child(1)::after{
+    content: '|';
+    margin: 0 0.5rem 0;
+}
+
+.footer-bg > p:nth-child(2)::after{
+    content: '|';
+    margin: 0 0.5rem 0;
+}
+
+.footer-alumna {
+    margin: 1rem 0 1rem;
+}
+
+.footer-iconos {
+    padding: 1rem 0 1rem;
+    filter: drop-shadow(0 2px 4px rgba(73, 73, 73, 0.7))
+}
+
+.email:hover {
+    transform: rotate(-5deg);
+}
+
+.facebook:hover {
+    transform: rotate(5deg);
+}
+
+.instagram:hover {
+    transform: rotate(-5deg);
+}
+
+.twitter:hover {
+    transform: rotate(5deg);
+}
+
+.behance:hover {
+    transform: rotate(-5deg);
+}
+
+
+/*ES DECIR SIEMPRE QUE LA PANTALLA TENGA AL MENOS 576px*/
+/*DIGAMOS, UNA TABLET*/
+@media screen and (min-width:576px) {
+
+    nav ul li {
+        width: fit-content;
+        margin: 1rem 0.2rem 0;
+    }
+
+    .intro-banner-tablet>img {
+        display: block;
+    }
+
+    .intro-banner>img {
+        display: none;
+    }
+
+    .intro-banner-desktop>img {
+        display: none;
+    }
+
+    p {
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+        font-weight: 500;
+        margin-top: 1.5rem;
+    }
+
+    section {
+        margin: 4rem 0;
+    }
+
+    .intro-texto, .historia-texto, .episodios-texto, .clips-texto, .clips-videos, .formulario-contenido {
+        margin: 0 1.5rem;
+    }
+
+    .historia-texto img:nth-child(2) {
+        max-width: 80%;
+    }
+
+    .historia-texto img:nth-child(3) {
+        display: none;
+    }
+
+    .historia-texto img:nth-child(4) {
+        display: none;
+    }
+
+    .historia-texto img:nth-child(9) {
+        display: none;
+    }
+
+    .historia-texto > img:nth-last-child(4) {
+        max-width: 400px;
+    }
+
+    .historia-texto p span {
+        color: orange;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 2rem;
+    }
+
+    .historia-texto p {
+        margin-top: 4rem;
+    }
+
+    blockquote p {
+        font-size: 1.5rem;
+        line-height: 3rem;
+        text-align: center;
+    }
+
+    .historia-texto > blockquote p span {
+        font-size: 1.2rem;
+    }
+
+    .items-personajes {
+        text-align: center;
+    }
+
+    .perfil-img > img {
+        display: none;
+    }
+
+    .perfil-img-p300 > img {
+        display: block;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom: 5px solid #d4ffd4;
+    }
+
+    .perfil-personaje {
+        border: 1px solid antiquewhite;
+        width: calc(50% - 1rem);
+        vertical-align: top;
+    }
+
+    .perfil-personaje:nth-child(2n -1) {
+        margin-right: 1rem;
+    }
+
+    .perfil-texto>p {
+        font-size: 1rem;
+    }
+
+    .items-personajes>div:last-child {
+        width: 100%;
+    }
+
+    .resenia-episodio h4 {
+        text-align: left;
+    }
+
+    .resenia-indice {
+        text-align: left;
+        padding-left: 1rem;
+    }
+
+    .galeria-clip-1 .web-clip {
+        display: block;
+    }
+
+    .galeria-clip .texto-clip {
+        display: none;
+    }
+
+    .web-clip::first-line {
+        color: #d4ffd4;
+        font-weight: 400;
+    }
+
+    .web-clip > p {
+        text-align: left;
+        font-size: 2rem;
+        font-weight: 200;
+        line-height: 2.5rem;
+        width: 70%;
+    }
+
+    .form-titulo p {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .formulario-campo textarea {
+        height: 8rem;
+    }
+
+    .formulario-contenido input, textarea {
+        border-radius: 20px;
+    }
+
+    .footer-bg {
+        height: 80%;
+        vertical-align: middle;
+    }
+
+    .footer-bg > p {
+        margin: 0;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .footer > ul {
+        margin-bottom: 2rem;
+    }
+}
+
+/*ES DECIR SIEMPRE QUE LA PANTALLA TENGA AL MENOS 993px DISPONIBLES*/
+/*DIGAMOS, UNA PC*/
+@media screen and (min-width:993px) {
+
+    
+    nav ul li {
+        width: fit-content;
+        margin: 2rem 0.4rem 0;
+    }
+
+    .intro-banner-tablet>img {
+        display: none;
+    }
+
+    .intro-banner>img {
+        display: none;
+    }
+
+    .intro-banner-desktop>img {
+        display: block;
+        border: 2px solid #d4ffd4;
+        padding: 1rem;
+        background-color: antiquewhite;
+    }
+
+    .intro-banner-desktop {
+        max-width: 400px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.269);
+        margin: 9rem 3rem 4rem;
+        float: right;
+    }
+
+    nav ul li {
+        padding: 1rem 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 1.7rem;
+        text-transform:none;
+    }
+
+    p {
+        font-size: 1.2rem;
+        line-height: 2.4rem;
+        font-weight: 500;
+        margin-top: 3.5rem;
+    }
+
+    .clips-texto > p {
+        font-size: 1.5rem;
+    }
+
+    p strong, em {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .intro-texto a, span {
+        font-weight: 500;
+    }
+
+    section {
+        margin: 4rem 0;
+    }
+
+    .intro-texto, .historia-texto, .episodios-texto, .clips-texto, .clips-videos, .formulario-contenido {
+        margin: 0 2rem;
+    }
+       
+    #historia {
+        margin: 12rem 0;
+    }
+
+    .historia-texto > img {
+        display: block;
+        border: 2px solid #d4ffd4;
+        padding: 1rem;
+        background-color: antiquewhite;
+    }
+        
+
+    .historia-texto img:nth-child(3) {
+        display: none;
+    }    
+
+    .historia-texto img:nth-child(6) {
+        display: none;
+    }
+
+    .historia-texto img:nth-child(2) {
+        display: block;
+        max-width: 400px;
+        float: left;
+        margin: 4rem 4rem 2rem 0;
+    }
+
+    .historia-texto img:nth-child(4) {
+        display: block;
+        max-width: 400px;
+        float: right;
+        margin: 4rem 0 4rem 4rem;
+    }
+    
+
+    .historia-texto img:nth-child(8) {
+        display: none;
+    }
+
+    .historia-texto img:nth-child(9) {
+        display: block;
+    }
+
+    blockquote p {
+        font-size: 2rem;
+        line-height: 4rem;
+        text-align: left;
+        margin: 4rem 0;
+        margin-left: 40%;
+    }
+
+    .historia-texto > blockquote p span {
+        font-size: 2rem;
+    }
+
+    .historia-texto > img:nth-last-child(4) {
+        max-width: 400px;
+        float: right;
+        margin: 0 0 4.5rem 4rem;
+    }
+
+    .perfil-img > img {
+        display: block;
+        width: 30%;
+        border-radius: 0;
+    }
+
+    .perfil-img-p300 > img {
+        display: none;
+    }
+
+    .perfil-texto > p > strong {
+        font-size: 1.2rem;
+    }
+
+    .items-personajes {
+        padding: 0;
+        margin: 2rem;
+    }
+
+    .items-personajes > div {
+        width: 100%;        
+    }
+
+    .perfil-personaje:nth-child(2n -1) {
+        margin: 0;
+    }
+
+    .perfil-texto > p {
+        font-size: 1.2rem;
+        width: 70%;
+        padding: 2rem;
+        margin: 0;
+        text-align: left;    
+        float: left;
+        line-height: 2.5rem;   
+        min-height: 300px;     
+    }
+
+    .perfil-actor {
+        width: 30%;
+        float: right;
+    }
+
+    #episodios {
+        margin: 2rem 0;
+        padding: 0;
+        display: inline-block;
+    }
+
+    .resenia-texto > img:nth-child(2) {
+        display: none;
+    }
+    
+    .resenia-episodio {
+        vertical-align: top;
+        padding: 0 2rem;
+        margin-bottom: 3rem;
+        width: calc(50% - 1rem);
+        display: inline-block;
+    }
+
+    .resenia-episodio:nth-child(2n -1) {
+        border-right: 1px solid antiquewhite;
+        margin-left: 1rem;
+    }
+
+    
+    .episodios-texto p {
+        font-size: 1.2rem;
+    }
+
+    .resenia-texto > p > strong {
+        font-size: 1.2rem;
+    }
+
+    #clips {
+        margin-bottom: 6rem;
+    }
+
+    .clips-texto {
+        text-align: center;
+        margin: 0 6rem 4rem;
+        padding: 0 4rem;
+    }
+    
+    .galeria-clip {
+        margin-bottom: 4rem;
+    }
+
+    .boton-suscribir {
+        width: 20%;
+        margin: 1.2rem auto;
+    }
+
+    .formulario-contenido {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .footer h4 {
+        font-size: 1.2rem;
+        text-transform: none;
+    }
+
+    .footer>img {
+        width: 30%;
+    }
+
+    .footer-bg > p {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    
+      
+}
